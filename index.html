@@ -38,7 +38,7 @@
       
 <p>Click the button to get your coordinates.</p>
 
-<button onclick="getLocation()">Try It</button>
+<button onclick="getLocation()">Try It!</button>
 
 <p id="demo"></p>
 
@@ -101,5 +101,13 @@ function showPosition(position) {
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBykokXgWtlqC8yT9iCB6ZAZ0Ip38xHX9Q&callback=initMap">
     </script>
+     <style>
+      #compass{
+        width:100%;
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+      }
+    </style>
   </body>
 </html>
