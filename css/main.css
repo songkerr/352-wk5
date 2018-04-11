@@ -46,6 +46,6 @@ button:focus {
         margin-top: 8%;
     }
 
-    #dataContainerOrientation, #dataContainerMotion {
+    #dataContainerMotion {
     padding-bottom: 8%;
 }
