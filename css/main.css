@@ -38,10 +38,14 @@ button:focus {
     font-family: 'Josefin Slab', serif;
     text-align: center;
     margin-top: 4%;
+    padding-bottom: 2%;
 }
 
 @media(max-width: 1024px) {
     h1 {
         margin-top: 8%;
     }
+
+    #dataContainerOrientation, #dataContainerMotion {
+    padding-bottom: 8%;
 }
